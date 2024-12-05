@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(20, 20, 20);
+    position: relative;
+    top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.main-div{
+    /* height: 200px; */
+    width: 18%;
+    height:26.5rem;
+    background-color:rgb(49, 49, 49);
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.img-profile{
+    border-radius: 55%;
+    width: 50px;
+    position: relative;
+    left: 3%;
+    padding-top:10%;
+}
+
+.heading-0 h2, h4, p{
+    color: white;
+    text-align: center;
+}
+
+.heading-0 h4{
+    color: yellowgreen;
+}
+
+.heading-2{
+    
+}
+
+.heading-0-1{
+    line-height: 5px;
+}
+
+#block{
+    background-color: #4b4b4b;
+    color: white;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 6px 0;
+    /* padding-top: 5px; */
+}
+
+.github,.frontend-mentor, .linkedin, .twitter, .instagram{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.block-container{
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+}
